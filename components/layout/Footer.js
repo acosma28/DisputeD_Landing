@@ -9,7 +9,7 @@ const Footer = () => {
                 <section className="section mt-100">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image">
                                         <div className="box-image"><img src="assets/imgs/page/contact/headphone.png" alt="DisputeDine" /></div>
@@ -20,7 +20,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image">
                                         <div className="box-image"><img src="assets/imgs/page/contact/phone.png" alt="DisputeDine" /></div>
@@ -31,28 +31,8 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/chart.png" alt="DisputeDine" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-1 mb-10">Bussiness Department</h6>
-                                        <p className="font-xs color-grey-500">Contact the sales department about cooperation projects<br />(+01) 789 456 23</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/earth.png" alt="DisputeDine" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-1 mb-10">Global branch</h6>
-                                        <p className="font-xs color-grey-500">Contact us to open our branches globally.<br />(+01) 234 567 89<br />(+01) 456 789 23</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
+                            
                         </div>
                     </div>
                 </section>
@@ -142,10 +122,9 @@ const Footer = () => {
                                 <div className="mb-10"style={{display:'flex', alignItems:'left', width:'4rem', height: '4rem'}}><img src="assets/imgs/template/logo.svg" alt="DisputeDine" /></div>
                                 <div className="mb-10"style={{display:'flex',paddingLeft:'10px', alignItems:'right', width:'12rem', height: '5rem'}}><img src="assets/imgs/template/DisputeDlogo.svg" alt="DisputeDine" /></div>
                                 </div>
-                                <p className="font-md mb-20 color-grey-400">Street<br className="d-none d-lg-block" />City, Zip Code</p>
-                                <div className="font-md mb-20 color-grey-400"><strong className="font-md-bold">Hours:</strong> 8:00 - 17:00, Mon - Sat</div>
+                                
                                 <h6 className="color-brand-1">Follow Us</h6>
-                                <div className="mt-15"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /><Link className="icon-socials icon-linkedin" href="#" /><Link className="icon-socials icon-youtube" href="#" /></div>
+                                <div className="mt-15"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /><Link className="icon-socials icon-linkedin" href="#" /></div>
                             </div>
                             <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-1">Company</h5>
@@ -154,9 +133,8 @@ const Footer = () => {
                                     <li><Link href="/about">About Us</Link></li>
                                     <li><Link href="/service">Services</Link></li>
                                     <li><Link href="/pricing">Pricing Plan</Link></li>
-                                    <li><Link href="#">Press &amp; Media</Link></li>
-                                    <li><Link href="#">Advertising</Link></li>
-                                    <li><Link href="#">Testimonials</Link></li>
+                                    {/*<li><Link href="#">Press &amp; Media</Link></li>
+                                    <li><Link href="#">Testimonials</Link></li>*/}
                                 </ul>
                             </div>
 
@@ -174,10 +152,10 @@ const Footer = () => {
                             
                             
                             <div className="col-lg-3 width-23">
-                                <h5 className="mb-10 color-brand-1">App &amp; Payment</h5>
+                                <h5 className="mb-10 color-brand-1"> Payment</h5>
                                 <div>
                                     <p className="font-sm color-grey-400">Download our App and get some deal here</p>
-                                    <div className="mt-20"><Link className="mr-10" href="#"><img src="assets/imgs/template/appstore.png" alt="DisputeDine" /></Link><Link href="#"><img src="assets/imgs/template/google-play.png" alt="DisputeDine" /></Link></div>
+                                    
                                     <p className="font-sm color-grey-400 mt-20 mb-10">Secured Payment Gateways</p><img src="assets/imgs/template/payment-method.png" alt="DisputeDine" />
                                 </div>
                             </div>

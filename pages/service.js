@@ -29,10 +29,8 @@ const pageServices = () => {
                                                 <p className="font-md color-grey-500">Collaborate, plan projects and manage resources with powerful features that your whole team can use. Have peace of mind as we support your needs and help your through unseen problems.</p>
                                             </div>
                                         </div>
-                                        <div className="mt-30">
-                                            <h5 className="color-brand-1">Available on</h5>
-                                        </div>
-                                        <div className="box-button mt-20"> <Link className="btn-app mb-15 hover-up" href="#"> <img src="assets/imgs/template/appstore-btn.png" alt="DisputeDine" /></Link><Link className="btn-app mb-15 hover-up" href="#"> <img src="assets/imgs/template/google-play-btn.png" alt="DisputeDine" /></Link><Link className="btn btn-default mb-15 pl-10 font-sm-bold hover-up" href="#">
+                                        
+                                        <div className="box-button mt-20"> <Link className="btn btn-default mb-15 pl-10 font-sm-bold hover-up" href="#">
                                             Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
