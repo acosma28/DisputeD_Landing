@@ -22,7 +22,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                     <div className="main-header">
                         <div className="header-left">
                             <div className="header-logo" style={{ display: 'flex',alignItems: 'center'}}>
-                               <div style={{ padding: '5px', width:'86px', height: '6rem'}}> <Link className="d-flex" href="/"><img alt="Ecom" src="assets/imgs/template/logo.svg"  /></Link>
+                               <div style={{ padding: '10px', width:'60px', height: '3rem'}}> <Link className="d-flex" href="/"><img alt="Ecom" src="assets/imgs/template/logo.svg"  /></Link>
                                </div>
                             </div>
                             <div className="header-nav" >
