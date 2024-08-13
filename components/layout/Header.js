@@ -21,9 +21,9 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                 <div className="container">
                     <div className="main-header">
                         <div className="header-left">
-                            <div className="header-logo" style={{ display: 'flex',alignItems: 'center'}}>
-                               <div style={{ padding: '10px', width:'60px', height: '3rem'}}> <Link className="d-flex" href="/"><img alt="Ecom" src="assets/imgs/template/logo.svg"  /></Link>
-                               </div>
+                            <div className="header-logo">
+                                 <Link className="d-flex" href="/"><img alt="Ecom" src="assets/imgs/template/logo.svg"  style={{ width:'auto', height: '3rem'}}></img></Link>
+                               
                             </div>
                             <div className="header-nav" >
                                 <nav className="nav-main-menu d-none d-xl-block">
@@ -46,7 +46,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                                 </div>
                             </div>
                             <div className="header-right">
-                                <div className="d-inline-block box-search-top">
+                               {/* <div className="d-inline-block box-search-top">
                                     <div className={isSearchToggled ? "form-search-top d-block" : " form-search-top d-none"}>
                                         <form action="#">
                                             <input className="input-search" type="text" placeholder="Search..." />
@@ -61,7 +61,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                         </svg></span>
-                                </div>
+                                </div>*/}
                                 <div className="d-inline-block box-dropdown-cart" onClick={toggleLanguageTrueFalse}><span className="font-lg icon-list icon-account"><span className="font-lg color-grey-900 arrow-down">EN</span></span>
                                     <div className={isLanguageToggled ? "dropdown-account dropdown-open" : "dropdown-account"}>
                                         <ul>

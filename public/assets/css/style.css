@@ -2855,6 +2855,8 @@ body {
 .header .main-header .header-left .header-logo {
   max-width: 150px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 .header .main-header .header-left .header-logo a {
   display: block;
@@ -2864,7 +2866,7 @@ body {
   min-height: 37px;
 }
 .header .main-header .header-left .header-nav {
-  display: inline-block;
+  display: flex;
   width: 75%;
   text-align: left;
 }
@@ -2901,6 +2903,8 @@ body {
 }
 .header .main-menu {
   padding-top: 3px;
+  display: 'flex';
+  gap:'15px';
 }
 .header .main-menu li {
   float: left;
