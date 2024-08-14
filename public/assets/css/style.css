@@ -2853,7 +2853,7 @@ body {
   width: 100%;
 }
 .header .main-header .header-left .header-logo {
-  max-width: 150px;
+  max-width: 50px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -2904,11 +2904,12 @@ body {
 .header .main-menu {
   padding-top: 3px;
   display: 'flex';
-  gap:'15px';
+  
 }
 .header .main-menu li {
   float: left;
   position: relative;
+  left: 0px;
   text-align: left;
   padding-right: 15px;
 }

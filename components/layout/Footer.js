@@ -43,20 +43,8 @@ const Footer = () => {
                                 <h2 className="color-brand-1 mb-15">Get in touch</h2>
                                 <p className="font-sm color-grey-500">Do you want to know more or contact our sales department?</p>
                                 <div className="mt-50">
-                                    <div className="card-offer card-we-do card-contact hover-up">
-                                        <div className="card-image"><img src="assets/imgs/page/contact/img1.png" alt="DisputeDine" /></div>
-                                        <div className="card-info">
-                                            <h6 className="color-brand-1 mb-10">Visit the Knowledge Base</h6>
-                                            <p className="font-md color-grey-500 mb-5">Browse customer support articles and step-by-step instructions for specific features.</p>
-                                        </div>
-                                    </div>
-                                    <div className="card-offer card-we-do card-contact hover-up">
-                                        <div className="card-image"><img src="assets/imgs/page/contact/img2.png" alt="DisputeDine" /></div>
-                                        <div className="card-info">
-                                            <h6 className="color-brand-1 mb-10">Watch Product Videos</h6>
-                                            <p className="font-md color-grey-500 mb-5">Watch our video tutorials for visual walkthroughs on how to use our features.</p>
-                                        </div>
-                                    </div>
+                                    
+        
                                     <div className="card-offer card-we-do card-contact hover-up">
                                         <div className="card-image"><img src="assets/imgs/page/contact/img3.png" alt="DisputeDine" /></div>
                                         <div className="card-info">

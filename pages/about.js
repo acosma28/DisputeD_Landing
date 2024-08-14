@@ -158,48 +158,7 @@ const pageAbout = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-90">
-                    <div className="container">
-                        <div className="row align-items-start">
-                            <div className="col-lg-6">
-                                <h6 className="color-brand-1 mb-20">Our leadership team</h6>
-                                <h2 className="color-brand-1 mb-50">Meet the amazing team behind DisputeDine</h2>
-                            </div>
-                        </div>
-                        <div className="row align-items-start">
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <div className="card-team mb-30">
-                                    <div className="card-image"><img src="assets/imgs/page/about/team1.png" alt="DisputeDine" /></div>
-                                    <div className="card-info"><Link className="font-lg" href="#">Devon Lane</Link>
-                                        <p className="font-xs color-grey-200 mb-10">CEO</p>
-                                        <p className="font-xs color-grey-400">Sharing content online allows you to craft an online persona that reflects your personal values and professional skills. Even if you only use social media occasionally</p>
-                                        <div className="list-socials"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <div className="card-team mb-30">
-                                    <div className="card-image"><img src="assets/imgs/page/about/team2.png" alt="DisputeDine" /></div>
-                                    <div className="card-info"><Link className="font-lg" href="#">Jennie Tho</Link>
-                                        <p className="font-xs color-grey-200 mb-10">Finance Manager</p>
-                                        <p className="font-xs color-grey-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus.</p>
-                                        <div className="list-socials"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <div className="card-team mb-30">
-                                    <div className="card-image"><img src="assets/imgs/page/about/team3.png" alt="DisputeDine" /></div>
-                                    <div className="card-info"><Link className="font-lg" href="#">Symon Lesin</Link>
-                                        <p className="font-xs color-grey-200 mb-10">Technology Manager</p>
-                                        <p className="font-xs color-grey-400">In a professional context it often happens that private or corporate clientsorder a publication to publish news. Excepteur sint occaecat cupidatat non proident,</p>
-                                        <div className="list-socials"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+               
                 <section className="section mt-50 pt-50 pb-40">
                     <div className="container">
                         <div className="box-cover-border">
