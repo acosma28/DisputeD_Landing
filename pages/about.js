@@ -17,11 +17,7 @@ const pageAbout = () => {
                         <p className="font-md color-grey-400 mb-30">Social media networks are open to all. Social media is typically used for social interation and <br className="d-none d-lg-block" />access to news and information, and decison making.</p>
                         <div className="box-radius-border mt-50">
                             <div className="box-list-numbers">
-                                <div className="item-list-number">
-                                    <div className="box-image-bg"> <img src="assets/imgs/page/other/dispersal.png" alt="DisputeDine" /></div>
-                                    <h2 className="color-brand-1">469K+</h2>
-                                    <p className="color-brand-1 font-lg">Social followers</p>
-                                </div>
+                                
                                 <div className="item-list-number">
                                     <div className="box-image-bg"> <img src="assets/imgs/page/other/certification.png" alt="DisputeDine" /></div>
                                     <h2 className="color-brand-1">25k+</h2>
@@ -30,18 +26,14 @@ const pageAbout = () => {
                                 <div className="item-list-number">
                                     <div className="box-image-bg"> <img src="assets/imgs/page/homepage1/cross2.png" alt="DisputeDine" /></div>
                                     <h2 className="color-brand-1">756+</h2>
-                                    <p className="color-brand-1 font-lg">Project Done</p>
+                                    <p className="color-brand-1 font-lg">Money Saved</p>
                                 </div>
                                 <div className="item-list-number">
                                     <div className="box-image-bg"> <img src="assets/imgs/page/other/research.png" alt="DisputeDine" /></div>
                                     <h2 className="color-brand-1">100+</h2>
-                                    <p className="color-brand-1 font-lg">Global branch</p>
+                                    <p className="color-brand-1 font-lg">Completed Disputes</p>
                                 </div>
-                                <div className="item-list-number">
-                                    <div className="box-image-bg"> <img src="assets/imgs/page/other/conference.png" alt="DisputeDine" /></div>
-                                    <h2 className="color-brand-1">240+</h2>
-                                    <p className="color-brand-1 font-lg">Conference</p>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

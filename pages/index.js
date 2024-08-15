@@ -160,14 +160,15 @@ const HomePage1 = () => {
                 </section>
                 <section className="section mt-50 pt-50 pb-90">
                     <div className="container">
-                        <div className="bg-brand-1 box-cover-video" style={{ backgroundColor: '#56AB92' }}>
+                        <div className="bg-brand-1 o" box-cover-vide style={{ backgroundColor: '#56AB92' }}>
                             <div className="row align-items-center">
                                 <div className="col-xl-6 col-lg-6"><img className="d-block" src="assets/imgs/page/homepage1/img-video.png" alt="DisputeDine" /></div>
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="box-info-video"><span className="btn btn-tag">Business</span>
                                         <h3 className="color-white mt-10 mb-15">Join a Network of People that Protect Themselves  </h3>
-                                        <p className="font-md color-white">Protect yourself and your buisness by watching the video below.</p>
-                                        <div className="box-button-video"><a className="btn btn-play font-sm-bold popup-youtube hover-up" onClick={() => setOpen(true)}>Play Video</a></div>
+                                        <p className="font-md color-white">Protect yourself and your buisness by scheduling with us below.</p>
+                                        {/*<div className="box-button-video"><a className="btn btn-play font-sm-bold popup-youtube hover-up" onClick={() => setOpen(true)}>Play Video</a></div>*/}
+                                        <div className="box-button mt-30"><Link className="btn btn-brand-2 hover-up"  href="https://calendly.com" target="_blank" rel="noopener noreferrer">Schedule Here</Link> </div>
                                     </div>
                                 </div>
                             </div>
